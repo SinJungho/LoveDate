@@ -16,7 +16,6 @@
 #heart{
     width: 50px;
     height: 50px;
-    
 }
 
 #woman{
@@ -27,10 +26,6 @@
     margin-left: 30px;
 }
 
-#love{
-
-}
-
 .special-day{
     display: flex;
     justify-content: space-between;
@@ -39,6 +34,7 @@
 .title{
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 
 .days-left{
@@ -48,6 +44,15 @@
 .date{
     text-align: right;
     color: #a0a0a0;
+}
+
+.date:hover{
+    transition: 0.5s;
+    color: #666565;
+}
+
+.date-box{
+    padding-right: 10px;
 }
 
 p{
